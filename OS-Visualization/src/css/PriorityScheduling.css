@@ -1,0 +1,122 @@
+.priority-top-div {
+    margin: 20px;
+    margin-top: 60px;
+}
+
+.priority-heading {
+    font-size: 1.3rem;
+    color: #190482;
+    text-align: center;
+}
+
+.priority-input-table {
+    border-collapse: collapse;
+}
+
+.priority-claculation-2 {
+    border-collapse: collapse;
+}
+
+input {
+    border: none;
+    text-align: center;
+    font-size: 1.1rem;
+    outline: none;
+    width: 125px;
+    /* max-width: 150px; */
+}
+
+
+
+thead,
+th,
+tr,
+td,
+tbody {
+    border: 2px solid rgb(144, 144, 247);
+    padding: 8px;
+    color: #190482;
+}
+
+.priority-button {
+    padding: 10px 20px;
+    background-color: #190482;
+    border: none;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+
+}
+
+.priority-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.priority-button:hover {
+    background-color: #cec6f9;
+}
+
+.priority-calculation {
+    margin-top: 50px;
+}
+
+.priority-calculation h2 {
+    color: #190482;
+}
+
+.priority-claculation-2 {
+    margin-top: 50px;
+}
+
+
+
+.priority-claculation-2 {
+    color: #cec6f9;
+}
+
+.priority-claculation-2 h3 {
+    color: #190482;
+}
+
+.priority-graph {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.priority-graph div {
+    width: 47%;
+}
+
+
+@media screen and (max-width:600px) {
+    .priority-button {
+        font-size: 12px;
+    }
+
+    th {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .priority-graph {
+        flex-direction: column;
+    }
+
+    .priority-graph div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .priority-top-div {
+        margin: 0px;
+        margin-top: 40px;
+        padding: 10px 0px;
+    }
+}

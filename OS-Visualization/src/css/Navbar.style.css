@@ -1,0 +1,28 @@
+.navbar {
+    padding: 10px;
+    background-color: #C2D9FF;
+    color: white;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.nav-home {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #190482;
+    font-weight: 900;
+    padding: 8px;
+}
+
+select,
+option {
+    font-size: 1.1rem;
+    color: #190482;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}

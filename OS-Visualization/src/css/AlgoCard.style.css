@@ -1,0 +1,87 @@
+.algo-card-container {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.algo-card-reverse {
+    flex-direction: row-reverse;
+}
+
+.algo-Wheel {
+
+    transition: transform 3s ease-in-out;
+
+}
+
+.algo-card-heading {
+    color: #190482;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.algo-rotate {
+    transform: rotate(360deg);
+
+}
+
+
+
+.algo-card-container-left h1 {
+    color: #190482;
+}
+
+.algo-card-container-left p {
+    font-size: 1.2rem;
+    color: #3120a4;
+}
+
+.algo-card-button {
+    background-color: #3120a4;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    text-decoration: none;
+
+
+}
+
+.algo-card-button:hover {
+    background-color: #5f42f0;
+}
+
+.algo-card-link {
+    margin-top: 50px;
+}
+
+.algo-card-container-right img {
+    cursor: pointer;
+    width: 250px;
+}
+
+@media screen and (max-width:850px) {
+    .algo-card-container-right img {
+        width: 100px;
+    }
+
+    .algo-card-container {
+        flex-direction: column-reverse;
+        padding: 0px;
+
+        text-align: center;
+    }
+
+    .algo-card-button {
+        font-size: 1rem;
+    }
+
+    .algo-card-container-left p {
+        font-size: 1rem;
+    }
+}

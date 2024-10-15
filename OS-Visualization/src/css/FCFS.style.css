@@ -1,0 +1,91 @@
+.FCFS-top-div {
+    margin: 20px;
+    margin-top: 60px;
+}
+
+.FCFS-heading {
+    font-size: 1.3rem;
+    color: #190482;
+    text-align: center;
+}
+
+.FCFS-input-table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.FCFS-button {
+    padding: 10px 20px;
+    background-color: #190482;
+    border: none;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+}
+
+.FCFS-table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+}
+
+.FCFS-button:hover {
+    background-color: #cec6f9;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.FCFS-chart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FCFS-bar-chart {
+    width: 50%;
+}
+
+.FCFS-timeline-chart {
+    width: 50%;
+}
+
+@media screen and (max-width:900px) {
+    .FCFS-chart {
+        flex-direction: column;
+    }
+
+    .FCFS-bar-chart {
+        width: 100%;
+    }
+
+    .FCFS-timeline-chart {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .FCFS-heading {
+        font-size: 1.2rem;
+    }
+
+    .FCFS-top-div {
+        margin: 0px;
+        margin-top: 60px;
+
+    }
+}
+
+@media screen and (max-width:500px) {
+    .FCFS-heading {
+        font-size: 1rem;
+    }
+
+
+}

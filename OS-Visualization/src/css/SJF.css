@@ -1,0 +1,48 @@
+.SJF-top-div {
+    margin: 30px;
+    margin-top: 70px;
+}
+
+.SJF-heading {
+    font-size: 1.3rem;
+    color: #190482;
+    text-align: center;
+}
+
+.SJF-input-table {
+    border-collapse: collapse;
+}
+
+.SJF-button {
+    padding: 10px 20px;
+    background-color: #190482;
+    border: none;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
+h2,
+h3 {
+    color: #190482;
+}
+
+.SJF-table {
+    border-collapse: collapse;
+
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:700px) {
+    .SJF-heading {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .SJF-heading {
+        font-size: 10px;
+    }
+}
