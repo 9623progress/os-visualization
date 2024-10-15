@@ -16,19 +16,13 @@ This project provides a graphical tool to visualize **Operating System (OS) Proc
 - **Automatic Process Naming**: Processes are auto-named (P1, P2, etc.) for simplicity.
 - **CPU Utilization & Turnaround Time**: Calculate and display key metrics like average waiting time, turnaround time, and CPU utilization.
 
-## Screenshots
 
-![Timeline Graph Example](./screenshots/timeline.png)
-*Example of the timeline visualization for Round Robin scheduling.*
-
-![Stacked Bar Graph Example](./screenshots/stackedbar.png)
-*Example of the stacked bar graph displaying process executions.*
 
 ## Tech Stack
 
 - **Frontend**: React (using Vite as a build tool)
-- **Visualization**: D3.js for creating graphs and charts
-- **State Management**: Redux for managing process data and visualization state
+- **Visualization**: recharts,react-chartjs-2,charts.js
+
 
 ## How to Run the Project
 
