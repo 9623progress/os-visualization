@@ -4,7 +4,7 @@ This project provides a graphical tool to visualize **Operating System (OS) Proc
 
 ## Features
 
-- **Dynamic Input**: Input processes dynamically with properties such as burst time, arrival time, and priority (if applicable).
+- **Dynamic Input**: Input processes dynamically with properties such as burst time, arrival time, and priority
 - **Scheduling Algorithms**:
   - **Round Robin**: Implements time-sharing with user-defined time quantum.
   - **FCFS (First Come First Serve)**: Simple scheduling based on arrival time.
